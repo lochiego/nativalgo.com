@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#cv-content {
+#cv-content,
+#papers-content {
   flex: 2;
 }

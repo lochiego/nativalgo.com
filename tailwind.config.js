@@ -11,6 +11,10 @@ module.exports = {
           card: "#36475F",
           button: "#4C586C",
         },
+        maroon: {
+          main: "#500000",
+          dark: "#3C0000",
+        },
       },
     },
   },
