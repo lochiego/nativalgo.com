@@ -9,29 +9,49 @@
   </head>
   <body>
     <main class="">
-      <div id="header" class="bg-main-dark flex align-middle py-8 md:min-h-screen">
-        <div class="flex flex-col md:flex-row mx-auto p-5 align-middle gap-8 my-auto justify-center">
-          <div id="portrait" class="align-middle mx-auto">
-            <img src="/headshot.jpg" class="w-64 aspect-auto rounded-3xl" />
-            <div id="name" class="mt-3">
-              <h1 class="text-2xl text-main-text">Natalia I. Valdez Gonzalez</h1>
-              <h2 class="text-lg text-main-text italic">Behavioral Economist</h1>
+      <div id="header" class="bg-main-dark align-middle py-8 md:min-h-screen">
+        <div class="container mx-auto place-items-center">
+          <div class="flex flex-col md:flex-row my-auto mx-auto max-w-fit">
+            
+            <div id="profile" class="mx-auto md:mr-8">
+              <div class="mx-auto max-w-fit">
+                <img src="/headshot.jpg" class="w-64 aspect-auto rounded-3xl" />
+                <div id="name" class="mt-3">
+                  <h1 class="text-2xl text-main-text">Natalia I. Valdez Gonzalez</h1>
+                  <h2 class="text-lg text-main-text italic">Behavioral Economist</h1>
+                </div>
+                <div id="contact-info" class="my-4 mx-auto align-middle ">
+                  <h3 class="text-main-text">Deptartment of Agricultural Economics</h2>
+                  <h3 class="text-main-text">Human Behavior Lab</h2>
+                  <h3 class="text-main-text">Texas A&M University</h2>
+                  <h3 class="text-main-text">1500 Research Parkway, Suite 221</h2>
+                  <h3 class="text-main-text">College Station, Texas. 77845</h2>
+                </div>
+              </div>
+            </div>
+
+            <div id="abstract" class="py-8">
+              <div id="cta" class="bg-main-card col-span-1 md:col-span-2 px-7 pt-1 pb-4 rounded-3xl  max-w-xs sm:max-w-sm md:max-w-md">
+                <div class="mx-auto px-2 py-1 text-main-text">
+                  <p class="my-4">Howdy! I am an applied economist who uses experiments to study human behavior. My research is focused around social preferences, incentives, and their implications in health behaviors and policy.</p>
+    
+                  <p class="my-4">I am a Ph.D. Candidate and Lab Manager at the Human Behavior Lab at Texas A&M University in the Department of Agricultural Economics. I am a job market candidate for 2022-2023. Please do not hesitate to reach out!</p>
+                </div>
+    
+                <!-- TODO: Add hotlinks to the fragments in the site -->
+                <div id="action-buttons" class="flex justify-around my-3">
+                  <button class="w-44 px-3 py-2 mx-3 bg-main-button text-main-text rounded-md">
+                    Experience
+                  </button>
+                  <button class="w-44 px-3 py-2 mx-3 bg-main-button text-main-text rounded-md">
+                    Research
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          <div id="cta" class="bg-main-card flex-1 mx-4 px-7 pt-1 pb-4 md:col-span-2 rounded-3xl  max-w-xs sm:max-w-sm md:max-w-md">
-            <div class="mx-auto px-2 py-1 text-main-text">
-              <p class="my-4">Howdy! I am an applied economist who uses experiments to study human behavior. My research is focused around social preferences, incentives, and their implications in health behaviors and policy.</p>
-
-              <p class="my-4">I am a Ph.D. Candidate and Lab Manager at the Human Behavior Lab at Texas A&M University in the Department of Agricultural Economics. I am a job market candidate for 2022-2023. Please do not hesitate to reach out!</p>
-            </div>
-
-            <div id="action-buttons" class="flex justify-around my-3">
-              <button class="w-40 px-3 py-2 mx-3 bg-main-button text-main-text rounded-md">CV</button>
-              <button class="w-40 px-3 py-2 mx-3 bg-main-button text-main-text rounded-md">Research</button>
-            </div>
-          </div>
+          
         </div>
-        <!-- TODO: Add hotlinks to the fragments in the site -->
       </div>
 
       <div id="cv" class="flex flex-col sm:flex-row sm:min-h-screen bg-slate-100">
