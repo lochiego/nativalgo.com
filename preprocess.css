@@ -6,3 +6,7 @@
 #papers-content {
   flex: 2;
 }
+
+html {
+  scroll-behavior: smooth;
+}
